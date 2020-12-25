@@ -1,0 +1,460 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,
+body {
+    margin: 0;
+
+
+    font-family: Arial;
+}
+
+.header,
+li,
+ul {
+    padding: 0px;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#info {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.gmail {
+
+    margin-right: 10px;
+}
+
+#li1-info a span {
+
+    padding: 0px 3px;
+
+
+}
+
+#info>#menu-ul>li {
+    display: inline-block;
+}
+
+.facebook,
+.twitter,
+.gmail,
+.youtube {
+    padding: 0px;
+    color: #367C59;
+}
+
+.facebook:hover {
+    padding: px;
+    color: #4767AB;
+
+}
+
+.twitter:hover {
+    padding: 0px;
+    color: #5DA9DD;
+
+}
+
+.youtube:hover {
+    padding: 0px;
+    color: #FF0000;
+
+}
+
+.gmail:hover {
+    padding: 0px;
+    color: #EA4335;
+
+
+}
+
+.header {
+    background-color: #EBF5E0;
+}
+
+.sdt {
+    margin-right: 30px;
+}
+
+.signin,
+.signup {
+
+    display: block;
+    color: #414A46;
+
+
+    padding: 5px 0px;
+
+}
+
+.signin:hover,
+.signup:hover {
+    display: block;
+    color: white;
+    border: 1px solid #083D0A;
+
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black;
+
+    border-radius: 15px;
+    padding: 5px 0px;
+}
+
+.header ul li {
+
+
+    text-align: center;
+    color: #414A46;
+    font-size: 13px;
+    padding: 5px 0;
+    letter-spacing: 1px;
+
+}
+
+.header ul li a {
+    color: #414A46;
+    text-decoration: none;
+
+
+}
+
+.header ul li i {
+    margin-right: 6px;
+    top: 2px;
+    color: ;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#logo {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100px;
+
+
+}
+
+.logo-item1 img {
+    width: 100%;
+    max-height: 100%;
+}
+
+ul#menu-ul ul#menu-acc {
+
+
+
+    margin-left: -100px;
+
+
+}
+
+#menu-acc {}
+
+#menu-ul>.glyphicon-user,
+#menu-ul>.caret {
+    color: black;
+}
+
+.timkiem {
+    margin-top: 30px;
+}
+
+form.example input[type=text] {
+    padding: 20px;
+    font-size: 14px;
+
+    float: left;
+    width: 400px;
+
+    border: 1px solid #C2BEBE;
+    border-right: none;
+    background: #F2F9F4;
+    border-radius: 40px 0 0 40px;
+}
+
+form.example button {
+
+    float: left;
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+    background: #F2F9F4;
+    color: gray;
+    font-size: 14px;
+    border: 1px solid #C2BEBE;
+    border-left: none;
+    cursor: pointer;
+    border-radius: 0 40px 40px 0;
+}
+
+
+form.example::after {
+    content: "";
+
+    display: table;
+}
+
+.love {
+    margin: 30px 0 0 0;
+
+
+}
+
+.love div span,
+.love div button span {
+    font-size: 20px;
+    padding: 10px;
+    color: #11998e;
+
+}
+
+.badge {
+    background-color: #11998e;
+}
+
+.love>a:hover {
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    background-color: #11998e;
+}
+
+.shopping {
+    margin-top: 39px;
+
+}
+
+.shopping>a {
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    background-color: #38ef7d;
+}
+
+.shopping>a:hover {
+    padding: 10px;
+    border: 1px solid grey;
+    font-size: 14px;
+    color: white;
+    border-radius: 5px;
+    background-color: #11998e;
+}
+
+/*
+*/
+#menu {
+
+    width: 100%;
+    color: black;
+    background: #76b852;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8DC26F, #76b852);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8DC26F, #76b852);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+}
+
+
+
+#menu-a {
+
+    color: white;
+
+}
+
+#menu-b {
+
+    color: #76b852;
+}
+
+#menu-a:hover {
+
+    color: #76b852;
+    background-color: #ECF5F1;
+}
+
+ul#menu-ul li:hover ul#menu-hover {
+    display: block;
+
+
+}
+
+#munu-ul {
+    display: block;
+}
+
+ul#menu-ul ul#menu-hover {
+    display: none;
+
+    width: 200px;
+    margin-left: -10px;
+
+
+}
+
+ul#menu-ul ul#menu-hover li {
+    padding: 5px 0 5px 0;
+}
+
+ul#menu-ul ul#menu-hover li a:hover {
+    display: block;
+}
+
+#menu-ul li:active {
+    color: #76b852;
+    background-color: white;
+
+}
+
+.banner {
+    margin-bottom: 20px;
+}
+
+.banner a {
+    font-size: 24px;
+    color: white;
+    padding: 10px 20px;
+
+    background-color: #11998e;
+    border: 2px solid #11998e;
+    border-radius: 30px;
+}
+
+.banner a:hover {
+    font-size: 24px;
+    color: #11998e;
+    padding: 10px 20px;
+
+    background: none;
+    border: 5px solid #11998e;
+    border-radius: 30px;
+}
+
+#menu-mobile {
+    background-color: white;
+    color: #61C472;
+
+}
+
+.gioi-thieu {
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #474947;
+}
+
+.gioi-thieu {
+    font-family: "Noto Serif", serif;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #474947;
+
+}
+
+.gioi-thieu h2 {
+    font-family: "Noto Serif", serif;
+    font-size: 34px;
+    font-weight: 400;
+
+    color: black;
+}
+
+.gioi-thieu>p {
+    font-family: "Noto Serif", serif;
+    font-size: 18px;
+    font-weight: 400;
+
+    color: #474947;
+}
+
+.star-review {
+    color: #FFBA00;
+}
+
+.name-head {
+   
+    font-family: "Noto Serif", serif;
+
+    font-weight: 400;
+    color: #292929;
+}
+
+.img>img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+.item-sp div div {
+    font-family: "Noto Serif", serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.iteam-singer {
+    background-color: #E3E9EA;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    height: 220px;
+}
+
+.item-sp div a {
+    display: block;
+}
+
+.item-sp div em {
+    font-family: "Noto Serif", serif;
+    padding: 10px;
+    color: #FFFFFF;
+}
+#item-hover1:hover,#item-hover2:hover,#item-hover3:hover,#item-hover4:hover
+{
+ opacity: 0.7;
+}
+#item-hover1,#item-hover2,#item-hover3,#item-hover4
+{
+	margin-top: 20px;
+
+}
+#section_about h3
+{
+	margin-bottom: 30px;
+}

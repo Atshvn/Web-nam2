@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chi tiết-GreenBonVietNam</title>
+    <!-- Bootstrap -->
+    <link href="./CSS/bootstrap.css" rel="stylesheet">
+    <link href="./CSS/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./JS/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="./JS/bootstrap.js"></script>
+    <script>
+        $(document).ready(function(){
+$("#myInput").on("keyup", function() {
+var value = $(this).val().toLowerCase();
+$("#myProduct p").filter(function() {
+$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+});
+});
+});
+</script>
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body id="myProduct">
+    <div>
+        <header id="header" class="">
+            <div class="header container-fluid " id="home">
+                <div class=" container hidden-xs " id="info">
+                    <ul style="list-style-type: none; width:1150px; " class="row" id="menu-ul">
+                        <li id="li1-info" class="col-md-2 col-xs-4 ">
+                            <div class="footer-icons  lienket">
+                                <a href="https://www.facebook.com/ho.tuananh.3" class="facebook" target="_blank">
+                                    <span class="fa fa-facebook-square" style="font-size:15px"></span>
+                                </a>
+                                <a href="#" class="twitter">
+                                    <span class="fa fa-twitter" style="font-size:15px"></span>
+                                </a>
+                                <a href="#" class="youtube">
+                                    <span class="fa fa-youtube-play" style="font-size:15px"></span>
+                                </a>
+                                <a href="mailto:hosytuananh.it@example.com" style="font-size:15px" class="gmail">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-1 hidden-xs hidden-sm ">
+                            <div class="text-left "><a href="gioi-thieu.html">Giới thiệu</a></div>
+                        </li>
+                        <li class="col-md-1  hidden-xs hidden-sm">
+                            <div class="text-left "><a href="tuyen-dung.html">Tuyển dụng</a></div>
+                        </li>
+                        <li id="li2-info" class="col-md-8 col-xs-8 ">
+                            <div class="text-right sdt"><i class="fa fa-phone" aria-hidden="true"></i><b>HotLine:</b><span style="color: #AC0F0F"><b>0996029996</b></span></div>
+                        </li>
+                        <!-- <li class=" dropdown col-md-1 hidden-xs "><a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user" style="font-size:15px"> </span> <span class="caret"></span></a>
+                        <ul class="dropdown-menu " role="menu" id="menu-acc">
+                            <li>
+                                <div class="text-center">
+                                    <a class="signin" href="#" data-toggle="modal" data-target="#myModal"> Đăng nhập </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a class="signup" href="#" data-toggle="modal" data-target="#myModal2">Đăng kí </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class=" row flex container hidden-xs  " id="logo">
+                    <div class="logo-item1  hidden-xs  col-md-3 col-xs-2">
+                        <div style="width:100px; height: 100px;">
+                            <a href="home.html" title=""><img src="./Images/logogreenbon.jpg" alt="Trang Chu"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 hidden-xs">
+                        <div class=" timkiem">
+                            <form class="example " action="" style="margin:0;">
+                                <input type="text" id="myInput" class="form-control form-control-success" placeholder="Search." name="search">
+                                <button type="submit" class="form-control form-control-success"><i class="fa fa-search "></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 love text-right col-xs-4">
+                        <div>
+                            <a href="" title=""><span class=" fa fa-heart-o"> </span> </a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Không có sản phẩm nào"><span class=" fa fa-shopping-cart"></span></a>
+                            <script>
+                                $(document).ready(function(){
+                              $('[data-toggle="tooltip"]').tooltip();   
+                            });
+                            </script>
+                            <button style="border: none; background-color: white;" class=" dropdown  hidden-xs "><a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"> </span> </a>
+                                <ul class="dropdown-menu " role="menu">
+                                    <li>
+                                        <div class="text-center">
+                                            <a class="signin" href="#" data-toggle="modal" data-target="#myModal"> Đăng nhập </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a class="signup" href="#" data-toggle="modal" data-target="#myModal2">Đăng kí </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- /header -->
+        <div>
+            <nav class="nav navbar-default" id="menu">
+                <div class="container">
+                    <div class="navbar-header" id="menu-mobile">
+                        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#defaultNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a class="navbar-brand hidden-md hidden-lg hidden-sm " style="padding: 0px !important" href="#"><img src="./Images/logogreenbon.jpg" alt="Trang Chu" width="50px" height="50px;"></a>
+                    </div>
+                    <div class="collapse navbar-collapse row menu-fixder" id="defaultNavbar1">
+                        <ul class="nav navbar-nav  fixed-top" id="menu-ul">
+                            <li class="active"> <a href="home.html" title="" id="menu-b"><b>TRANG CHỦ</b></a></li>
+                            <li class="dropdown"><a class="dropdown-toggle" href="cham-soc-mat.html" title="" id="menu-a"><b>CHĂM SÓC MẶT</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Serum</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Mặt nạ</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Kem dưỡng</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Mụn</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="cham-soc-body.html" class="dropdown-toggle" title="" id="menu-a"><b>CHĂM SÓC BODY</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Sữa tắm</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dưỡng da</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Body cream</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Tẩy tế bào chết</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="cham-soc-toc" title="" id="menu-a"><b>CHĂM SÓC TÓC</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dưỡng tóc</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dầu gội</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dầu xả</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="make-up" title="" id="menu-a"><b>MAKE UP</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Son môi</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Son dưỡng </a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Phấn</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="san-pham-khac" title="" id="menu-a"><b>SẢN PHẨM KHÁC</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Tinh dầu dài mi</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Serum trị thâm </a></li>
+                                </ul>
+                            </li>
+                            <li><a href="tap-chi-lam-dep.html" title="" id="menu-a"><b>TẠP CHÍ LÀM ĐẸP</b></a></li>
+                        </ul>
+                    </div>
+            </nav>
+        </div>
+        <div class="container-fluid" id="ahihi">
+            <div class="container menu-2">
+                <div class=" container row " id="haizz">
+                    <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+                        <a href="home.html" title="">Trang chủ</a> &ensp;
+                        <span class="fa fa-angle-right"></span>
+                        <a href="cham-soc-body.html" title=""> &ensp;Chi tiết sản phẩm</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="item-chitiet">
+                        <div class="img-chitiet">
+                            <a href="" class="block" title="Phấn Nước Lime Real Cover Pink Cushion">
+                                <span><img src="./Images/item-chitiet.jpg" alt=""></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div>
+                        <h2><b>Sữa tắm Victoria’s Secret quyến rũ
+                            </b></h2>
+                    </div>
+                    <div>
+                        <span class="star-review">
+                            <i class=" fa fa-star"></i>
+                            <i class=" fa fa-star"></i>
+                            <i class=" fa fa-star"></i>
+                            <i class=" fa fa-star"></i>
+                            <i class=" fa fa-star"></i>
+                        </span>
+                        &ensp;&ensp;Thương hiệu: <i>Đang cập nhập..</i>
+                    </div>
+                    <hr>
+                    <span class="price"><span>560.000₫&ensp;&ensp; </span><del>670.000₫</del></span>
+                    <br>
+                    <br>
+                    <div>
+                        Mô tả: <i>Đang cập nhật.</i>
+                    </div>
+                    <div class="sl">
+                        <span>
+                            <input type="number" name="" min="1" max="150" class="form-control" value="1" placeholder="">
+                        </span>
+                        <div class="">
+                            <button class="btn btn-default" type="submit">THÊM VÀO GIỎ</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <br><hr><br>
+                    <div class="row" >
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                         <p><b>TÍNH PHÍ SHIP TỰ ĐỘNG </b></p>  
+                         <div class="img-ship">
+                            <span><img src="./Images/giao-hang.jpg" alt=""> </span> 
+                         </div>
+                          </div> 
+                        </div>
+                        <hr><br>
+                        <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                            <p><b>THANH TOÁN</b></p>
+                            <div class="img-ship">
+                                <span> <img src="./Images/ngan-hang-rs.jpg" alt=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <hr><br>
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="tab-chitiet">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">Thông tin</a></li>
+                            <li><a data-toggle="tab" href="#menu1">Hướng dẫn mua hàng</a></li>
+                            <li><a data-toggle="tab" href="#menu2">Đánh giá</a></li>
+                        </ul>
+                        <div class="tab-content tab-info">
+                            <div id="home" class="tab-pane fade in active">
+                                <p>Sữa tắm Sparkling Citrus Luscious Crush – Victoria’s Secret mang đến sức sống căng tràn và vẻ mịn màng tươi trẻ cho làn da nhờ chiết xuất từ quýt và những loài hoa thơm mê đắm. Các hạt vitamin C nhẹ nhàng làm sạch và nuôi dưỡng làn da giúp cho làn da mịn màng, mềm mại và không kém phần quyến rũ. Hãy đánh thức vẻ đẹp của làn da bạn ngay từ bây giờ!.</p>
+                                <br>
+                                <p><b>Công dụng:</b></p>
+                                <br>
+                                <p>- Sữa tắm dạng kem với công thức vượt trội về dưỡng mịn & bổ sung độ ẩm giúp da bạn hấp thụ hiệu quả đa dưỡng chất.</p>
+                                <p>- Sau khi tắm xong, bạn sẽ cảm nhận được trên da mình được bao bọc và bảo vệ bởi một lớp kem mỏng mịn và mùi hương cực kỳ quyến rũ và nồng nàn lưu lại trên cơ thể.</p>
+                                <p>- Đặc biệt là rất thích hợp sử dụng cho làn da khô cần được hồi sinh.</p>
+                                <br>
+                                <p><b>Hướng dẫn sử dụng:</b></p>
+                                <br>
+                                <p>Lấy 1 lượng sản phẩm vừa đủ thoa đều lên cơ thể, massage nhẹ nhàng</p>
+                                <p> Tắm sạch lại với nước</p>
+                            </div>
+                            <div id="menu1" class="tab-pane fade">
+                                <h3>Các bước mua hàng:</h3>
+                                <p>Tốt gỗ hơn tốt nước sơn, nhưng tốt front-end thì vẫn hơn :v</p>
+                            </div>
+                            <div id="menu2" class="tab-pane fade">
+                                <h3>Đánh giá sản phẩm</h3>
+                                <hr>
+                                Đánh giá của bạn: &ensp;
+                                <span style="color: #CCC1C1">
+                                    <i class=" fa fa-star"></i>
+                                    <i class=" fa fa-star"></i>
+                                    <i class=" fa fa-star"></i>
+                                    <i class=" fa fa-star"></i>
+                                    <i class=" fa fa-star"></i>
+                                </span>
+                                <span class="text-right">
+                                    <button type="button" data-toggle="modal" data-target="#myModal3" > Viết đánh giá</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+          <div class="container ">
+                        <div class="row ">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" id="section_product_new">
+                                <span><img src="./Images/backgroup-img.PNG" style="margin-top: 50px;" alt=""></span>
+                                <div class="title_module_bbf a-center section">
+                                    <h3 class="bf_flower">
+                                        <a href="" title="Sản phẩm mới">Các sản phẩm bạn có thể thích</a>
+                                    </h3>
+                                    <span class="destitle">Bộ sưu tập sản phẩm mới nhất từ GreenBon Việt Nam</span>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-product">
+                                <div>
+                                    <div class="img-product">
+                                        <a href="" class="block" title="Kem dưỡng thông đỏ">
+                                            <span><img src="./Images/item-new-Son-Lipsbon-chocolate.jpg" alt=""></span>
+                                        </a>
+                                    </div>
+                                    <div class="product-info text-center">
+                                        <a href="" title="">
+                                            <p>Son MAC neeeee ahihi</p>
+                                        </a>
+                                        <span class="price-box">440.000₫</span>
+                                        <button class="hidden-xs" type="submit">THÊM VÀO GIỎ</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-product">
+                                <div>
+                                    <div class="img-product">
+                                        <a href="" class="block" title="AHA 7 Whitehead Power Liquid Cosrx">
+                                            <span><img src="./Images/item-new-Kem-dưỡng-thông-đỏ.jpg" alt=""></span>
+                                        </a>
+                                    </div>
+                                    <div class="product-info text-center">
+                                        <a href="" title="">
+                                            <p>A’pieu Perfume Signal</p>
+                                        </a>
+                                        <span class="price-box">350.000₫</span>
+                                        <button class="hidden-xs" type="submit">THÊM VÀO GIỎ</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-product">
+                                <div>
+                                    <div class="img-product">
+                                        <a href="" class="block" title="Sữa dưỡng thể Skin Barista 2in1">
+                                            <span><img src="./Images/item-new-gel-cham-soc-toc.jpg" alt=""></span>
+                                        </a>
+                                    </div>
+                                    <div class="product-info text-center">
+                                        <a href="" title="">
+                                            <p>Sữa dưỡng thể Skin Barista 2in1</p>
+                                        </a>
+                                        <span class="price-box">240.000₫</span>
+                                        <button class="hidden-xs" type="submit">THÊM VÀO GIỎ</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-product">
+                                <div>
+                                    <div class="img-product">
+                                        <a href="" class="block" title="Phấn Nước Lime Real Cover Pink Cushion">
+                                            <span><img src="./Images/ite-new-Viên-uống-Collagen-and-Soy-4-1.jpg" alt=""></span>
+                                        </a>
+                                    </div>
+                                    <div class="product-info text-center">
+                                        <a href="" title="">
+                                            <p>Phấn Nước Lime Real Cover Pink </p>
+                                        </a>
+                                        <span class="price-box">160.000₫</span>
+                                        <button class="hidden-xs" type="submit">THÊM VÀO GIỎ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        <hr>
+         <section class="container-fluid " id="ccc">
+            <div class="container">
+                <div class="row" id="ship">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-truck"></span>
+                        <h2>Miễn phí ship</h2>
+                        <p>Cho đơn hàng trên 500 nghìn</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-american-sign-language-interpreting"></span>
+                        <h2>Tư vẫn miễn phí</h2>
+                        <p>Không mua không sao</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-phone"></span>
+                        <h2>24/7 hỗ trợ online</h2>
+                        <p>Luôn có nhân viên hỗ trợ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container-fluid">
+            <footer class="" id="lol">
+                <div class="container">
+                    <div class="row" id="footer-box">
+                        <div class="col-lg-5 col-md-5 colsm-5 col-xs-12">
+                            <div style="width:100px; height: 100px; margin-bottom: 10px;">
+                                <a href="home.html" title=""><img src="./Images/logogreenbon.jpg" alt="Trang Chu"></a>
+                            </div>
+                            <div class="info-bottom">
+                                <p><span class="fa fa-map-marker"></span>21 Võ Thị Sáu, phường Trường Thi, TP Vinh, tỉnh Nghệ An</p>
+                                <p><span class="fa fa-mobile-phone"></span> 0966029996</p>
+                                <p> <span class="fa fa-envelope"></span>hosytuananh.it@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 colsm-2 col-xs-12">
+                            <h4 style="font-weight: bold; padding-bottom: 10px;">MENU</h4>
+                            <ul class="menu-bottom">
+                                <li><a href="home.html" class="active" title=""><span class="fa fa-caret-right"></span>Trang Chủ</a></li>
+                                <li><a href="" title=""><span class="fa fa-caret-right"></span>Sản phẩm</a></li>
+                                <li><a href="" title=""><span class="fa fa-caret-right"></span>Giới thiệu</a></li>
+                                <li><a href="" title=""><span class="fa fa-caret-right"></span>Khuyến mãi</a></li>
+                                <li><a href="" title=""><span class="fa fa-caret-right"></span>Tin tức</a></li>
+                                <li><a href="" title=""><span class="fa fa-caret-right"></span>Liên hệ</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-5 col-md-5 colsm-5 col-xs-12 " id="form-dangki">
+                            <h4 style="font-weight: bold; ">ĐĂNG KÍ</h4>
+                            <p>Đăng kí để nhận được thông tin mới nhất từ chúng tôi</p>
+                            <div class="form-group">
+                                <form action="" method="" accept-charset="utf-8">
+                                    <input type="text" name="" class="form-control" value="" placeholder="Email..">
+                                    <button type="submit" class="btn btn-success bg-success">Đăng kí</button>
+                                </form>
+                            </div>
+                            <br><br>
+                            <br>
+                            <span class="outweb">
+                                <span><a href="#" class="facebook">
+                                        <span class="fa fa-facebook-square" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="twitter">
+                                        <span class="fa fa-twitter" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="youtube">
+                                        <span class="fa fa-youtube-play" style="font-size:25px"></span>
+                                    </a></span>
+                                <span> <a href="mailto:hosytuananh.it@example.com" style="font-size:25px" class="gmail">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a></span>
+                            </span>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </footer>
+            <footer>
+                <div class="row" id="endgame">
+                    <div class="container">
+                        <div class="text-center col-lg-12 col-md-12 col-ms-12 col-xs-12">
+                            <p> Copyright <span class="fa fa-copyright"></span><b> greenbonvietnam.com</b> | Design by <a href="https://www.facebook.com/ho.tuananh.3" title="">Atsh</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="text-center"><b>Đánh giá sản phẩm </b></h2>
+                </div>
+                <div class="modal-body">
+                    <div class="row text-center" >
+                            <form class="text-center" id="form-danhgia">
+                                <div class="form-group">
+                                    <input type="text" id="txtName" class="form-control" name="" value="" placeholder="Nhập tên của bạn">
+                                    <span></span>
+                                    <input type="email" id="txtEmail" class="form-control" name="" value="" placeholder="abc@gmail.com">
+                                    <span></span>
+                                    <input type="text" id="txtTieuDe" class="form-control" name="" value="" placeholder="Tiêu đề">
+                                    <span></span>
+                                    <input type="text" style="height: 100px" id="txtNoiDung" class="form-control" name="" value="" placeholder="Nội dung">
+                                </div>
+                                <div>
+                                    <button type="button" id="btnSend" class="btn btn-success  ">Gửi</button>
+                                </div>
+                            </form>
+                            <div class="lk-modal">
+                                <span><a href="#" class="facebook" id="facebooka">
+                                        <span class="fa fa-facebook-square" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="twitter" id="twittera">
+                                        <span class="fa fa-twitter" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="youtube" id="youtubea">
+                                        <span class="fa fa-youtube-play" style="font-size:25px"></span>
+                                    </a></span>
+                                <span> <a href="mailto:hosytuananh.it@example.com" style="font-size:25px" class="gmail" id="gmaila">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a></span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

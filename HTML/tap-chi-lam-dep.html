@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tin Tức-GreenBonVietNam</title>
+    <!-- Bootstrap -->
+    <link href="../CSS/bootstrap.css" rel="stylesheet">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="../JS/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../JS/bootstrap.js"></script>
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div>
+        <header id="header" class="">
+            <div class="header container-fluid " id="home">
+                <div class=" container hidden-xs " id="info">
+                    <ul style="list-style-type: none; width:1150px; " class="row" id="menu-ul">
+                        <li id="li1-info" class="col-md-2 col-xs-4 ">
+                            <div class="footer-icons  lienket">
+                                <a href="#" class="facebook">
+                                    <span class="fa fa-facebook-square" style="font-size:15px"></span>
+                                </a>
+                                <a href="#" class="twitter">
+                                    <span class="fa fa-twitter" style="font-size:15px"></span>
+                                </a>
+                                <a href="#" class="youtube">
+                                    <span class="fa fa-youtube-play" style="font-size:15px"></span>
+                                </a>
+                                <a href="mailto:hosytuananh.it@example.com" style="font-size:15px" class="gmail">
+                                    <span class="fa fa-google-plus"></span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="col-md-1 hidden-xs hidden-sm ">
+                            <div class="text-left "><a href="gioi-thieu.html">Giới thiệu</a></div>
+                        </li>
+                        <li class="col-md-1  hidden-xs hidden-sm">
+                            <div class="text-left "><a href="tuyen-dung.html">Tuyển dụng</a></div>
+                        </li>
+                        <li id="li2-info" class="col-md-8 col-xs-8 ">
+                            <div class="text-right sdt"><i class="fa fa-phone" aria-hidden="true"></i><b>HotLine:</b><span style="color: #AC0F0F"><b>0996029996</b></span></div>
+                        </li>
+                        <!-- <li class=" dropdown col-md-1 hidden-xs "><a href="#" title="" class="dropdown-toggle"  role="button" aria-expanded="false"><span class="glyphicon glyphicon-user" style="font-size:15px"> </span> <span class="caret"></span></a>
+                        <ul class="dropdown-menu " role="menu" id="menu-acc">
+                            <li>
+                                <div class="text-center">
+                                    <a class="signin" href=" data-target="#myModal"> Đăng nhập </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="text-center">
+                                    <a class="signup" href=" data-target="#myModal2">Đăng kí </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="container">
+                <div class=" row flex container hidden-xs  " id="logo">
+                    <div class="logo-item1  hidden-xs  col-md-3 col-xs-2">
+                        <div style="width:100px; height: 100px;">
+                            <a href="index.html" title=""><img src="../Images/logogreenbon.jpg" alt="Trang Chu"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 hidden-xs">
+                        <div class=" timkiem">
+                            <form class="example " action="" style="margin:0;">
+                                <input type="text" class="form-control form-control-success" placeholder="Search.." name="search">
+                                <button type="submit" class="form-control form-control-success"><i class="fa fa-search "></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-4 love text-right col-xs-4">
+                        <div>
+                            <a href="" title=""><span class=" fa fa-heart-o"> </span> </a>
+                            <a href="" title="" f><span class=" fa fa-shopping-cart"> </span></a>
+                            <button style="border: none; background-color: white;" class=" dropdown  hidden-xs "><a href="#" title="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"> </span> </a>
+                                <ul class="dropdown-menu " role="menu">
+                                    <li>
+                                        <div class="text-center">
+                                            <a class="signin" href="" data-toggle="modal" data-target="#myModal"> Đăng nhập </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="text-center">
+                                            <a class="signup" href="" data-toggle="modal" data-target="#myModal2">Đăng kí </a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header><!-- /header -->
+        <div>
+            <nav class="nav navbar-default" id="menu">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header" id="menu-mobile">
+                        <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#defaultNavbar1"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+                        <a class="navbar-brand hidden-md hidden-lg hidden-sm " style="padding: 0px !important" href="#"><img src="../Images/logogreenbon.jpg" alt="Trang Chu" width="50px" height="50px;"></a>
+                    </div>
+                    <div class="collapse navbar-collapse row menu-fixder" id="defaultNavbar1">
+                        <ul class="nav navbar-nav  fixed-top" id="menu-ul">
+                            <li class=""> <a href="index.html" title="" id="menu-b" style="color: white;"><b>TRANG CHỦ</b></a></li>
+                            <li class="dropdown "><a class="dropdown-toggle" href="cham-soc-mat.html" title="" id="menu-a"><b>CHĂM SÓC MẶT</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Serum</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Mặt nạ</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Kem dưỡng</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Mụn</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown "> <a class="dropdown-toggle" href="cham-soc-body.html" title="" id="menu-a"><b>CHĂM SÓC BODY</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Sữa tắm</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dưỡng da</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Body cream</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Tẩy tế bào chết</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="cham-soc-toc.html" title="" id="menu-a"><b>CHĂM SÓC TÓC</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dưỡng tóc</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dầu gội</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Dầu xả</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="make-up.html" title="" id="menu-a"><b>MAKE UP</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu " id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Son môi</a></li>
+                                    <li><a href="cham-soc-toc.html" title="">Son dưỡng </a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Phấn</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-toggle" href="san-pham-khac.html" title="" id="menu-a"><b>SẢN PHẨM KHÁC</b><span class="caret"></span></a>
+                                <ul class="dropdown-menu" id="menu-hover">
+                                    <li><a href="chi-tiet-san-pham.html" title="">Tinh dầu dài mi</a></li>
+                                    <li><a href="chi-tiet-san-pham.html" title="">Serum trị thâm </a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="tap-chi-lam-dep.html" style="color: #76b852;" title="" id="menu-a"><b>TẠP CHÍ LÀM ĐẸP</b></a></li>
+                        </ul>
+                    </div>
+                    <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="container-fluid" id="ahihi">
+            <div class="container menu-2">
+                <div class=" container row " id="haizz">
+                    <div class="col-md-9 col-lg-9 col-sm-12 col-xs-12">
+                        <a href="index.html" title="">Trang chủ</a> &ensp;
+                        <span class="fa fa-angle-right"></span>
+                        <a href="cham-soc-body.html" title=""> &ensp;Tạp chí làm đẹp</a>
+                    </div>
+                    <div class="col-md-3 col-lg-3 hidden-xs hidden-sm t">
+                        <form class="tapchi" action="" style="margin:0;">
+                            <input type="text" id="myInput" class="form-control form-control-success" placeholder="Search.." name="search">
+                            <button type="submit" class="form-control"><i class="fa fa-search "></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="blogg">
+                <h2><b>Tin tức</b></h2>
+                <P>Nhanh chóng cập nhật những thông tin hữu ích nhất từ chúng tôi để có biến giấc mơ làm đẹp trở nên đơn giản hơn bao giờ hết.</P>
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog text-center">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Chị em đua nhau uống colagen để căng da">
+                                    <span><img src="../Images/item-blog-1.jpg" alt="TChị em đua nhau uống colagen để căng da"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Chị em đua nhau uống colagen để căng da</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Lớp trang điểm bền màu cả ngày nhờ 5 loại kem lót">
+                                    <span><img src="../Images/item-blog-2.jpg" alt="Lớp trang điểm bền màu cả ngày nhờ 5 loại kem lót"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Lớp trang điểm bền màu nhờ 5 loại kem lót</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="8 công dụng tuyệt vời của Toner hoa hồng sâm">
+                                    <span><img src="../Images/item-blog-3.jpg" alt="8 công dụng tuyệt vời của Toner hoa hồng sâm"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>8 công dụng tuyệt vời của Toner hoa hồng sâm</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Nhiều người không bao giờ thiếu kem chống nắng">
+                                    <span><img src="../Images/item-blog-4.jpg" alt="Nhiều người không bao giờ thiếu kem chống nắng"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Nhiều người không bao giờ thiếu kem chống nắng</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog text-center">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Chị em đua nhau uống colagen để căng da">
+                                    <span><img src="../Images/item-blog-1.jpg" alt="TChị em đua nhau uống colagen để căng da"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Chị em đua nhau uống colagen để căng da</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Lớp trang điểm bền màu cả ngày nhờ 5 loại kem lót">
+                                    <span><img src="../Images/item-blog-2.jpg" alt="Lớp trang điểm bền màu cả ngày nhờ 5 loại kem lót"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Lớp trang điểm bền màu nhờ 5 loại kem lót</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="8 công dụng tuyệt vời của Toner hoa hồng sâm">
+                                    <span><img src="../Images/item-blog-3.jpg" alt="8 công dụng tuyệt vời của Toner hoa hồng sâm"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>8 công dụng tuyệt vời của Toner hoa hồng sâm</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 item-blog">
+                        <div>
+                            <div class="img-blog">
+                                <a href="chi-tiet-tin-tuc.html" class="block" title="Nhiều người không bao giờ thiếu kem chống nắng">
+                                    <span><img src="../Images/item-blog-4.jpg" alt="Nhiều người không bao giờ thiếu kem chống nắng"></span>
+                                </a>
+                            </div>
+                            <div class="blog-info text-center">
+                                <a href="chi-tiet-tin-tuc.html" title="">
+                                    <p>Nhiều người không bao giờ thiếu kem chống nắng</p>
+                                </a>
+                                <button class="hidden-xs" type="button">Chi tiết <span class="fa fa-angle-right"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                        <ul class="pagination" id="next-site">
+                            <li class="active"><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#"><span class="fa fa-angle-right"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <hr>
+     <section class="container-fluid " id="ccc">
+            <div class="container">
+                <div class="row" id="ship">
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-truck"></span>
+                        <h2>Miễn phí ship</h2>
+                        <p>Cho đơn hàng trên 500 nghìn</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-american-sign-language-interpreting"></span>
+                        <h2>Tư vẫn miễn phí</h2>
+                        <p>Không mua không sao</p>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-sm-4 col-xs-12 text-center">
+                        <span class="fa fa-phone"></span>
+                        <h2>24/7 hỗ trợ online</h2>
+                        <p>Luôn có nhân viên hỗ trợ</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <div class="container-fluid">
+        <footer class="" id="lol">
+            <div class="container">
+                <div class="row" id="footer-box">
+                    <div class="col-lg-5 col-md-5 colsm-5 col-xs-12">
+                        <div style="width:100px; height: 100px; margin-bottom: 10px;">
+                            <a href="index.html" title=""><img src="../Images/logogreenbon.jpg" alt="Trang Chu"></a>
+                        </div>
+                        <div class="info-bottom">
+                            <p><span class="fa fa-map-marker"></span>21 Võ Thị Sáu, phường Trường Thi, TP Vinh, tỉnh Nghệ An</p>
+                            <p><span class="fa fa-mobile-phone"></span> 0966029996</p>
+                            <p> <span class="fa fa-envelope"></span>hosytuananh.it@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2 colsm-2 col-xs-12">
+                        <h4 style="font-weight: bold; padding-bottom: 10px;">MENU</h4>
+                        <ul class="menu-bottom">
+                            <li><a href="index.html" class="active" title=""><span class="fa fa-caret-right"></span>Trang Chủ</a></li>
+                            <li><a href="cham-soc-mat.html" title=""><span class="fa fa-caret-right"></span>Sản phẩm</a></li>
+                            <li><a href="" title=""><span class="fa fa-caret-right"></span>Giới thiệu</a></li>
+                            <li><a href="" title=""><span class="fa fa-caret-right"></span>Khuyến mãi</a></li>
+                            <li><a href="" title=""><span class="fa fa-caret-right"></span>Tin tức</a></li>
+                            <li><a href="" title=""><span class="fa fa-caret-right"></span>Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-md-5 colsm-5 col-xs-12 " id="form-dangki">
+                        <h4 style="font-weight: bold; ">ĐĂNG KÍ</h4>
+                        <p>Đăng kí để nhận được thông tin mới nhất từ chúng tôi</p>
+                        <div class="form-group">
+                            <form action="" method="" accept-charset="utf-8">
+                                <input type="text" name="" class="form-control" value="" placeholder="Email...">
+                                <button type="submit" class="btn btn-success bg-success">Đăng kí</button>
+                            </form>
+                        </div>
+                        <br><br>
+                        <br>
+                        <span class="outweb">
+                            <span><a href="#" class="facebook">
+                                    <span class="fa fa-facebook-square" style="font-size:25px"></span>
+                                </a></span>
+                            <span><a href="#" class="twitter">
+                                    <span class="fa fa-twitter" style="font-size:25px"></span>
+                                </a></span>
+                            <span><a href="#" class="youtube">
+                                    <span class="fa fa-youtube-play" style="font-size:25px"></span>
+                                </a></span>
+                            <span> <a href="mailto:hosytuananh.it@example.com" style="font-size:25px" class="gmail">
+                                    <span class="fa fa-google-plus"></span>
+                                </a></span>
+                        </span>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </footer>
+        <footer>
+            <div class="row" id="endgame">
+                <div class="container">
+                    <div class="text-center col-lg-12 col-md-12 col-ms-12 col-xs-12">
+                        <p> Copyright <span class="fa fa-copyright"></span><b> greenbonvietnam.com</b> | Design by <a href="https://www.facebook.com/ho.tuananh.3" title="">Atsh</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    </div>
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="name-modal">
+                        <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                            <h3><b>SIGN IN</b> NOW</h3>
+                            <form class="text-center">
+                                <div class="form-group">
+                                    <input type="text" id="txtName" name="" value="" placeholder="Name">
+                                    <span></span>
+                                    <input type="email" id="txtEmail" name="" value="" placeholder="Email">
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <button type="button" id="btnSignin" class="btn btn-success  ">Đăng nhập</button>
+                                </div>
+                            </form>
+                            <div class="lk-modal">
+                                <span><a href="#" class="facebook" id="facebooka">
+                                        <span class="fa fa-facebook-square" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="twitter" id="twittera">
+                                        <span class="fa fa-twitter" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="youtube" id="youtubea">
+                                        <span class="fa fa-youtube-play" style="font-size:25px"></span>
+                                    </a></span>
+                                <span> <a href="mailto:hosytuananh.it@example.com" style="font-size:25px" class="gmail" id="gmaila">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a></span>
+                                <div class="create-acc">
+                                    <p><a href="#" data-toggle="modal" data-target="#myModal2"> Bạn chưa có tài khoản?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 hidden-sm hidden-xs">
+                            <img src="../Images/modal.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row" id="name-modal">
+                        <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
+                            <h3><b>SIGN UP</b> NOW</h3>
+                            <form class="text-center">
+                                <div class="form-group">
+                                    <input type="text" id="txtName" name="" value="" placeholder="Name">
+                                    <span></span>
+                                    <input type="email" id="txtEmail" name="" value="" placeholder="Email">
+                                    <span></span>
+                                    <input type="password" id="txtPass" name="" value="" placeholder="Password">
+                                    <span></span>
+                                    <input type="password" id="txtPassTest" name="" value="" placeholder="Confirm Password">
+                                    <span></span>
+                                </div>
+                                <div>
+                                    <button type="button" id="btnSignin" class="btn btn-success  ">Đăng ký</button>
+                                </div>
+                            </form>
+                            <div class="lk-modal">
+                                <span><a href="#" class="facebook" id="facebooka">
+                                        <span class="fa fa-facebook-square" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="twitter" id="twittera">
+                                        <span class="fa fa-twitter" style="font-size:25px"></span>
+                                    </a></span>
+                                <span><a href="#" class="youtube" id="youtubea">
+                                        <span class="fa fa-youtube-play" style="font-size:25px"></span>
+                                    </a></span>
+                                <span> <a href="mailto:hosytuananh.it@example.com" style="font-size:25px" class="gmail" id="gmaila">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 hidden-sm hidden-xs">
+                            <img src="../Images/modal.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
